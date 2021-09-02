@@ -1,5 +1,7 @@
 # Wolfie-chairs
  
+ Simple chair script, allowing you to sit and then stand back up with a useable item.
+ 
 ---Add this to qb-core > shared.lua
 
 	["chair"]		 	             = {["name"] = "chair", 			  	  	    ["label"] = "green Chair", 		    ["weight"] = 500, 		["type"] = "item", 	    ["image"] = "chair.png", 			    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Kick back and Relax"},
