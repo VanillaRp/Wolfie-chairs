@@ -11,3 +11,5 @@ server_scripts{
     'server.lua',
     'config.lua'
 }
+
+shared_script '@qb-core/import.lua'
