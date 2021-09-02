@@ -1,17 +1,14 @@
 QBCore.Functions.CreateUseableItem("chair2", function(source)
     local Player = QBCore.Functions.GetPlayer(source)
-    Player.Functions.RemoveItem('chair2', 1)
     TriggerClientEvent('test', source)
 end)
 
 QBCore.Functions.CreateUseableItem("chair", function(source)
     local Player = QBCore.Functions.GetPlayer(source)
-    Player.Functions.RemoveItem('chair', 1)
     TriggerClientEvent('test2', source)
 end)
 
 QBCore.Functions.CreateUseableItem("chair3", function(source)
     local Player = QBCore.Functions.GetPlayer(source)
-    Player.Functions.RemoveItem('chair3', 1)
     TriggerClientEvent('test3', source)
 end)
