@@ -126,7 +126,7 @@ function blueChair()
         local animDict = "timetable@ron@ig_3_couch"
         local animation = "base"
 
-        attachAProp("hei_prop_hei_skid_chair", 0, 0, 0.0, -0.22, 3.4, 0.4, 180.0, 0.0, false, false, false, false, 2,
+        attachAProp("prop_skid_chair_02", 0, 0, 0.0, -0.22, 3.4, 0.4, 180.0, 0.0, false, false, false, false, 2,
             true)
         loadAnimDict(animDict)
         local animLength = GetAnimDuration(animDict, animation)
