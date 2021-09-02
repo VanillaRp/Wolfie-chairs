@@ -1,13 +1,17 @@
-QBCore.Functions.CreateUseableItem("greenchair", function(source, item)
+QBCore.Functions.CreateUseableItem("chair2", function(source)
     local Player = QBCore.Functions.GetPlayer(source)
-    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
-        TriggerEvent("wolfie-chairs:Chair1", source, item.name)
-    end
+    Player.Functions.RemoveItem('chair2', 1)
+    TriggerClientEvent('test', source)
 end)
 
-QBCore.Functions.CreateUseableItem("pladchair", function(source, item)
+QBCore.Functions.CreateUseableItem("chair", function(source)
     local Player = QBCore.Functions.GetPlayer(source)
-    if Player.Functions.RemoveItem(item.name, 1, item.slot) then
-        TriggerEvent("wolfie-chairs:Chair2", source, item.name)
-    end
+    Player.Functions.RemoveItem('chair', 1)
+    TriggerClientEvent('test2', source)
+end)
+
+QBCore.Functions.CreateUseableItem("chair3", function(source)
+    local Player = QBCore.Functions.GetPlayer(source)
+    Player.Functions.RemoveItem('chair3', 1)
+    TriggerClientEvent('test3', source)
 end)
